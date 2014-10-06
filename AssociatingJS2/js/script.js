@@ -1,7 +1,9 @@
 //Defining Variables
 
-var age; //declaration
-age = 23; //definition
-//storage container = value
+var age = 23; // Number variable
 
-var yearOfBirth = 1991; //declaring and defining on the same line
+var isStudent = true; //Boolean variable
+
+var firstName = "Kristi";
+
+var phrase = 'I don\'t know \n You\'ll have to speak with the professor';
