@@ -1,9 +1,10 @@
-//Defining Variables
+//Arrays
 
-var age = 23; // Number variable
+var muppetNames = ["Kermit", "Miss Piggy"]; //0,1,2,3
 
-var isStudent = true; //Boolean variable
+muppetNames[1] = "Rizzo"; //Change index 1 to Rizzo
+muppetNames[2] = "Fozzy"; //Array access notation
 
-var firstName = "Kristi";
+var num = 2;
 
-var phrase = 'I don\'t know \n You\'ll have to speak with the professor';
+console.log(muppetNames[num]); //What's in index 2?
