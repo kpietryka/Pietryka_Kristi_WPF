@@ -30,3 +30,12 @@ console.log("Sparky got " + sparkysShare + " slices of pizza.");
 
 
 //Average Shopping Bill
+//Calculate average weekly grocery spending
+var groceryTotal = [120, 100, 202, 115, 170];
+//Calculate total amount spent on groceries
+var totalAmount = groceryTotal[0] + groceryTotal[1] + groceryTotal[2] + groceryTotal[3] + groceryTotal[4];
+//Calculate average weekly grocery spending
+var averageWeekly = totalAmount / 5;
+//Display results in console
+console.log("You have spent a total of $" + totalAmount + " on groceries over 5 weeks." +
+    " That is an average of $" + averageWeekly + " per week.");
