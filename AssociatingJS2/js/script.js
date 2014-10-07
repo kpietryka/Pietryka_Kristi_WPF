@@ -1,8 +1,6 @@
-//Casting
+//Expressions - Assignment Operators
 
-var areaCode = 407;
-var firstPart = 203;
-var secPart = 4529;
-//(407) 203-4529
-var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
-console.log(phoneNo);
+var a = 3;
+//a ++ ; //increment operator.. same as saying a = a + 1
+a -- ; //decrement operator, a = a - 1 or a -= 1
+console.log(a);
