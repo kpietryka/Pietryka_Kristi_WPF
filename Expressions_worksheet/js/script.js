@@ -39,3 +39,19 @@ var averageWeekly = totalAmount / 5;
 //Display results in console
 console.log("You have spent a total of $" + totalAmount + " on groceries over 5 weeks." +
     " That is an average of $" + averageWeekly + " per week.");
+
+
+//Discounts
+//Calculate the discounted price for an item
+var originalPrice = 100;
+var percentDisc = 30;
+var item = "dress";
+var salesTax = .06;
+//Calculate price of item without tax
+var discPrice = originalPrice - (percentDisc * .01 * originalPrice);
+//Calculate price of item with tax
+var priceTaxed = discPrice * salesTax + discPrice;
+//Print result to console
+console.log("Your " + item + " was originally $" + originalPrice +
+      ", but after a " + percentDisc + "% discount, it is now $" + discPrice +
+      " without tax, and $" + priceTaxed + " with tax.");
