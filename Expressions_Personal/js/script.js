@@ -17,4 +17,4 @@ var day7 = prompt("How many pull-ups did you do on day seven?");
 
 // Calculate total number of pull-ups for goal, as well as average goal
 var totalGoal = index[0] + index[1] + index[2] + index[3] + index[4] + index[5] + index[6];
-
+var averageGoal = totalGoal / 7;
