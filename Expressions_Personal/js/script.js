@@ -4,7 +4,7 @@
 
 // How many pull-ups done in one week, and what is the average number of pull-ups per day compared to the goal?
 // Define the daily pull-up goals in an array
-var goalPullUps = [2, 4, 6, 8, 10, 12, 14];
+var goalPullUps = [5, 5, 5, 5, 5, 5, 5];
 
 // Ask the user how many pull-ups were done on each day
 var day1 = prompt("How many pull-ups did you do on day one?");
@@ -20,3 +20,4 @@ var totalGoal = goalPullUps[0] + goalPullUps[1] + goalPullUps[2] + goalPullUps[3
 var averageGoal = totalGoal / 7;
 
 console.log(totalGoal);
+console.log(averageGoal);
