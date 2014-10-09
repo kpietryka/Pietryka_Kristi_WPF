@@ -20,4 +20,7 @@ var totalGoal = goalPullUps[0] + goalPullUps[1] + goalPullUps[2] + goalPullUps[3
 var averageGoal = totalGoal / 7;
 
 // Calculate total number of pull-ups done by user
-var totalUser = day1 + day2 + day3 + day4 + day5 + day6 + day7;
+var userTotal = day1 + day2 + day3 + day4 + day5 + day6 + day7;
+
+// Calculate user's average daily pull-ups
+var userAverage = 
