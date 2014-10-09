@@ -27,7 +27,7 @@ var userTotal = Number(day1) + Number(day2) + Number(day3) + Number(day4) + Numb
 // Calculate user's average daily pull-ups
 var userAverage = userTotal / 7;
 
-// Display the goals for total and average to the user, as well as their total and average for comparison
-alert("Your goal for total number of pull-ups this week was " + totalGoal +
+// Display the totals in the console
+console.log("Your goal for total number of pull-ups this week was " + totalGoal +
         " pull-ups. You did " + userTotal + " pull-ups. Your target average daily number of pull-ups was " +
         averageGoal + " pull-ups. You did an average of " + userAverage + " pull-ups per day.");
