@@ -15,4 +15,5 @@ var day5 = prompt("How many pull-ups did you do on day five?");
 var day6 = prompt("How many pull-ups did you do on day six?");
 var day7 = prompt("How many pull-ups did you do on day seven?");
 
+// Calculate total number of pull-ups for goal, as well as average goal
 
