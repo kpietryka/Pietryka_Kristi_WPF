@@ -10,3 +10,9 @@ var goalPullUps = [2, 4, 6, 8, 10, 12, 14];
 var day1 = prompt("How many pull-ups did you do on day one?");
 var day2 = prompt("How many pull-ups did you do on day two?");
 var day3 = prompt("How many pull-ups did you do on day three?");
+var day4 = prompt("How many pull-ups did you do on day four?");
+var day5 = prompt("How many pull-ups did you do on day five?");
+var day6 = prompt("How many pull-ups did you do on day six?");
+var day7 = prompt("How many pull-ups did you do on day seven?");
+
+
