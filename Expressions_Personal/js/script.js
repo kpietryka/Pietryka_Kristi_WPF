@@ -27,5 +27,5 @@ var userAverage = userTotal / 7;
 
 // Display the goals for total and average to the user, as well as their total and average for comparison
 alert("Your goal for total number of pull-ups this week was " + totalGoal +
-        " pull-ups. You did " + userTotal " pull-ups. Your target average daily number of pull-ups was " +
-        averageGoal + " pull-ups. You did an average of " + userAverage " pull-ups per day.");
+        " pull-ups. You did " + userTotal + " pull-ups. Your target average daily number of pull-ups was " +
+        averageGoal + " pull-ups. You did an average of " + userAverage + " pull-ups per day.");
