@@ -1,3 +1,3 @@
-/**
- * Created by kristipietryka on 10/9/14.
- */
+//Kristi Pietryka
+//October 9, 2014
+//Expressions - Industry
