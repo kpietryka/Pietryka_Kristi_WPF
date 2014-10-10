@@ -12,7 +12,9 @@ var customerName = prompt("Enter the customer's name:");
 var length = prompt("Enter the length of the case in inches:");
 var width = prompt("Enter the width of the case in inches:");
 
-
+//Add extra inch to be safe
+length ++;
+width ++;
 
 // Calculate the area of the case top
 var area = Number(length) * Number(width);
