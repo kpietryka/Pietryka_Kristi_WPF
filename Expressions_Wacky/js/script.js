@@ -21,3 +21,6 @@ var numberRoses = userRoses * multiplier;
 
 //Add an extra rose for good measure...
 numberRoses ++ ;
+
+//Display results in console
+
