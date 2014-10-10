@@ -19,3 +19,5 @@ var multiplier = prompt("How many times have you done something to make her mad 
 //Multiply the number of roses by the multiplier
 var numberRoses = userRoses * multiplier;
 
+//Add an extra rose for good measure...
+numberRoses ++ ;
