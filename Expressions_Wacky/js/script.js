@@ -8,4 +8,6 @@
 var userName = prompt("What is your name?");
 
 //Prompt the user for their girlfriend's name
+var girlfriendName = prompt("What is your girlfriend's name?");
+
 
