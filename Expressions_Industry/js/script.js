@@ -13,8 +13,8 @@ var length = prompt("Enter the length of the case in inches:");
 var width = prompt("Enter the width of the case in inches:");
 
 // Add an inch of material to the dimensions just to be safe
-Number(length) += 1;
-Number(width) += 1;
+length += 1;
+width += 1;
 
 // Calculate the area of the case top
 var area = Number(length) * Number(width);
