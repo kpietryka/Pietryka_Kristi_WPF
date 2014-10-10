@@ -17,7 +17,7 @@ length += 1;
 width += 1;
 
 // Calculate the area of the case top
-var area = length * width;
+var area = Number(length) * Number(width);
 
 // Display the results in the console
 console.log("In order to line the top of " + customerName + "\'s case, you need to order " + area +
