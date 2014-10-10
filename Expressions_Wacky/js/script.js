@@ -16,4 +16,5 @@ var userRoses = prompt("How many roses do YOU think you should buy your girlfrie
 //Ask the user how many times they have done something to make her mad over the last month
 var multiplier = prompt("How many times have you done something to make her mad this month?");
 
+//Multiply the number of roses by the multiplier
 
