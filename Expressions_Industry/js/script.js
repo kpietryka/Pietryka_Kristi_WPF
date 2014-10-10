@@ -9,3 +9,5 @@ var customerName = prompt("Enter the customer's name:");
 
 // Area of a rectangle = length * width
 // Get dimensions from user
+var length = prompt("Enter the length of the case in inches:");
+var width = prompt("Enter the width of the case in inches:");
