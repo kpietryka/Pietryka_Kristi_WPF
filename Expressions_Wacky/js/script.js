@@ -7,4 +7,5 @@
 //Prompt the user for their name
 var userName = prompt("What is your name?");
 
+//Prompt the user for their girlfriend's name
 
