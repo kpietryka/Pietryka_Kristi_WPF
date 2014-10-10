@@ -23,4 +23,5 @@ var numberRoses = userRoses * multiplier;
 numberRoses ++ ;
 
 //Display results in console
-
+console.log(userName + ", based on my calculations, you should buy your girlfriend " + numberRoses +
+            ". Of course, more is always acceptable.");
