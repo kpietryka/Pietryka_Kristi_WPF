@@ -20,3 +20,5 @@ width += 1;
 var area = length * width;
 
 // Display the results in the console
+console.log("In order to line the top of " + customerName "\'s case, you need to order " + area +
+            " square inches of material.");
