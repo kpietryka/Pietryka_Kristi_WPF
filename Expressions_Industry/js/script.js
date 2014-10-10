@@ -11,3 +11,5 @@ var customerName = prompt("Enter the customer's name:");
 // Get dimensions from user
 var length = prompt("Enter the length of the case in inches:");
 var width = prompt("Enter the width of the case in inches:");
+
+// Calculate the area of the case top
