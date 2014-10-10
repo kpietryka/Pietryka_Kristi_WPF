@@ -19,3 +19,4 @@ width += 1;
 // Calculate the area of the case top
 var area = length * width;
 
+// Display the results in the console
