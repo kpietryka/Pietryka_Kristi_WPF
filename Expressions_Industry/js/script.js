@@ -8,3 +8,4 @@
 var customerName = prompt("Enter the customer's name:");
 
 // Area of a rectangle = length * width
+// Get dimensions from user
