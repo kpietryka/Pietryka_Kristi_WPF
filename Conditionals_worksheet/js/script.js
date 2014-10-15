@@ -9,4 +9,5 @@
 var efficiency = Number(prompt("Enter the number of miles per gallon of fuel that your car gets: "));
 var gaugeReading = Number(prompt("Enter the percentage of fuel you have left: "));
 var capacity = Number(prompt("Enter your tank's fuel capacity in gallons: "));
-
+var currentGas = (0.01 * gaugeReading) * capacity;
+var milesToGo = 200;
