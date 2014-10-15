@@ -20,3 +20,6 @@ if(milesInTank <= milesToGo){
     console.log("Yes, you can make it without stopping for gas!");
 }
 
+// Check the Login
+// Check to ensure that username and password entered by user are correct
+
