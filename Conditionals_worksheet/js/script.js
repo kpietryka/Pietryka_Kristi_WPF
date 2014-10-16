@@ -20,6 +20,8 @@ if(milesInTank <= milesToGo){
     console.log("Yes, you can make it without stopping for gas!");
 }*/
 
+
+
 // Check the Login
 // Check to ensure that username and password entered by user are correct
 
@@ -36,3 +38,9 @@ if(username === correctUsername && password === correctPassword){
 }else if(password != correctPassword){
     console.log("Password does not match our records.");
 }
+
+
+
+// Movie Ticket Price
+// Determine the cost of a movie ticket depending on age and time
+
