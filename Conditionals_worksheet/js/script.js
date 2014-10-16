@@ -26,21 +26,36 @@ if(milesInTank <= milesToGo){
 // Check to ensure that username and password entered by user are correct
 
 // Write givens as variables
-var username = prompt("Please enter your username: ");
+/*var username = prompt("Please enter your username: ");
 var password = prompt("Please enter your password: ");
 var correctUsername = "kpietryka";
 var correctPassword = "FullSail16";
 
+//Write the conditional
 if(username === correctUsername && password === correctPassword){
     console.log("Welcome, " + username + "!");
 }else if(username != correctUsername){
     console.log("User not found. Try again.");
 }else if(password != correctPassword){
     console.log("Password does not match our records.");
-}
+}*/
 
 
 
 // Movie Ticket Price
 // Determine the cost of a movie ticket depending on age and time
 
+// Write givens as variables
+var movieTime = Number(prompt("Please enter the movie time: "));
+var customerAge = Number(prompt("Please enter your age: "));
+var regularPrice = 12.00;
+var discountPrice = 7.00;
+
+// Write the conditional
+if(customerAge >= 55 || customerAge < 10){
+    console.log("The ticket price is $" + discountPrice + ".");
+}else if(movieTime > 3 && movieTime < 5){
+    console.log("The ticket price is $" + discountPrice + ".");
+}else{
+    console.log("The ticket price is $" + regularPrice + ".");
+}
