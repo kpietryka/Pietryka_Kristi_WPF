@@ -10,4 +10,8 @@ var creditScore = Number(prompt("Enter your credit score: "));
 var age = Number(prompt("Enter your age: "));
 
 // Write conditional (ternary)
+if(creditScore == "" || age == ""){
+    console.log("You forgot to input something!");
+}
+
 (age > 18 && creditScore >500) ? console.log("You can rent an instrument!") : console.log("You are not qualified to rent an instrument.");
