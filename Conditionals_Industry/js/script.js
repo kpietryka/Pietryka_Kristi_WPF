@@ -9,3 +9,4 @@
 var creditScore = Number(prompt("Enter your credit score: "));
 var age = Number(prompt("Enter your age: "));
 
+// Write conditional (ternary)
