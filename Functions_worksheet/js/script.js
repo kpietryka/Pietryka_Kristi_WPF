@@ -25,6 +25,6 @@ console.log(c);
 // 8.666666667 bee stings per pound to kill an animal
 
 //Write function
-var calcStings = function(weight){
+var calcStings = function(victimWeight){
     
 }
