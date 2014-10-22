@@ -21,3 +21,5 @@ console.log(c);
 
 
 // Stung!
+// Calculate how many bee stings are needed to kill an animal
+// 8.666666667 bee stings per pound to kill an animal
