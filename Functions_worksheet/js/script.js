@@ -29,3 +29,5 @@ var calcStings = function(victimWeight){
     var numberStings = 8.666666667 * victimWeight;
     return numberStings;
 }
+
+// Create variable for result
