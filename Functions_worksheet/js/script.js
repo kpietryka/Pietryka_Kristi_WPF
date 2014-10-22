@@ -8,6 +8,7 @@
 // Write function for calculating circumference
 // C = 2 * 3.14 * R
 var calcCircumference = function(radius){
+    //This is the code the function runs
     var circumference = 2 * 3.14 * radius;
     return circumference;
 }
