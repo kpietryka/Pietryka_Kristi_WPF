@@ -17,7 +17,7 @@ var calcCircumference = function(radius){
 var c = calcCircumference(6);
 
 // Print result to console for testing
-console.log(c);
+console.log("The circumference of the circle is " + c);
 
 
 // Stung!
@@ -31,6 +31,7 @@ var calcStings = function(victimWeight){
 }
 
 // Create variable for result
-var stingsNeeded = calcStings(135);
+var stingsNeeded = calcStings(180);
 
 // Print results to console
+console.log("It takes " + stingsNeeded + " to kill this animal.");
