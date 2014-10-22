@@ -32,3 +32,5 @@ var calcStings = function(victimWeight){
 
 // Create variable for result
 var stingsNeeded = calcStings(135);
+
+// Print results to console
