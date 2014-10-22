@@ -11,3 +11,5 @@ var calcCircumference = function(radius){
 }
 
 var c = calcCircumference(4);
+
+console.log(c);
