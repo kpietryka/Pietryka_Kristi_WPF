@@ -10,3 +10,4 @@ var calcCircumference = function(radius){
     return circumference;
 }
 
+var c = calcCircumference(4);
