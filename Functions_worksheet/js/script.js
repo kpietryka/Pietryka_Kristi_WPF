@@ -15,4 +15,5 @@ var calcCircumference = function(radius){
 // Create variable for result
 var c = calcCircumference(4);
 
+// Print result to console for testing
 console.log(c);
