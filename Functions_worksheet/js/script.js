@@ -12,7 +12,7 @@ var calcCircumference = function(radius){
     return circumference;
 }
 
-
+// Create variable for result
 var c = calcCircumference(4);
 
 console.log(c);
