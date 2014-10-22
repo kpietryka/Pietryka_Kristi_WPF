@@ -18,3 +18,6 @@ var c = calcCircumference(6);
 
 // Print result to console for testing
 console.log(c);
+
+
+// Stung!
