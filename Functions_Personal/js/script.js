@@ -12,8 +12,10 @@ var calcSteps = function(numberMiles){
 }
 
 // Make variable from result
-var stepsTaken = calcSteps(3.5);
+var stepsTaken = calcSteps(0.5);
 
 // Write ternary
 alertMessage = (stepsTaken < 2000) ? "You need to run more!" : "Great job!";
 
+// Display results to the console
+console.log("You took " + stepsTaken + " steps. " + alertMessage);
