@@ -10,3 +10,6 @@ var calcSteps = function(numberMiles){
     var numberSteps = 2000 * numberMiles;
     return numberSteps;
 }
+
+var stepsTaken = calcSteps(3.5);
+
