@@ -11,3 +11,6 @@ var calcAmountMoney = function(milesDriven, ratePerMile, hoursDriven, hourlyBonu
     return amountMade;
 }
 
+// Write result as variable
+var paycheck = calcAmountMoney(12, 0.54,0.5, 2);
+
