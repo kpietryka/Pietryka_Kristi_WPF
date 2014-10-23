@@ -13,3 +13,4 @@ var calcSteps = function(numberMiles){
 
 var stepsTaken = calcSteps(3.5);
 
+alertMessage = (stepsTaken < 2000) ? "You need to run more!" : "Great job!";
