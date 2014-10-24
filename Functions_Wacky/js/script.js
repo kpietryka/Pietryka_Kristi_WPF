@@ -12,7 +12,7 @@ var calcSlices = function(numberSlices, numberHours){
 }
 
 // Write result as variable
-var slicesPerHour = calcSlices(8, 3);
+var slicesPerHour = calcSlices(10, 2);
 
 // Print results to console
 console.log("The average number of slices eaten per hour is " + slicesPerHour + ".");
