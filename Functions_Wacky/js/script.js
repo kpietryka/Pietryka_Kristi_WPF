@@ -3,6 +3,10 @@
    Functions - Wacky */
 
 // Calculate the average number of pieces of pizza a person can eat per hour
-// Number of hours divided by number of slices
+// Number of slices divided by number of hours
 
 // Create function for calculating number of slices per hour
+var calcSlices = function(numberSlices, numberHours){
+    var averageSlices = numberSlices / numberHours;
+    return averageSlices;
+}
