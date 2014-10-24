@@ -10,3 +10,7 @@ var calcSlices = function(numberSlices, numberHours){
     var averageSlices = numberSlices / numberHours;
     return averageSlices;
 }
+
+// Write result as variable
+var slicesPerHour = calcSlices(8, 3);
+
